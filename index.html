@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="search github users and display their repositories">
+        <title>github repo search</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Github user search</h1>
+        <p>Input a github username and this page will show you a list of their repositories.</p>
+        <form class="userInput">
+            <input type="text" id="input" default="SpenserSagel" required>username</input>
+            <button type="submit">clickit</button>
+        </form>
+        <div>
+            <ul class="display">
+
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
